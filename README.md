@@ -10,6 +10,7 @@ Security advisory and technical documentation for SQL injection in Apogee CMS `m
 * **Vulnerability:** SQL Injection ([CWE-89](https://cwe.mitre.org/data/definitions/89.html))
 * **Tracking ID:** CAN-2026-2033679
 * **Status:** Disclosed (90-day vendor grace period elapsed)
+* **Discovered By:** Takis397
 
 ## Summary
 An unauthenticated SQL injection vulnerability exists in Apogee CMS within `module.php`. The application fails to sanitize or parameterize input derived from URL path segments before running database queries.
